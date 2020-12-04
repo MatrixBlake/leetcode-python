@@ -15,7 +15,8 @@ https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
 # 题解
 ## 题解一：dictionary
 **复杂度**：时间O(N),空间O(N)
-    ```python
-    #!/usr/bin/env python3
-    print("Hello, World!");
-    ```
+
+```python
+print("Hello, World!")  
+    print("Hello, World!")  
+```

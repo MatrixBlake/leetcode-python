@@ -14,9 +14,16 @@ https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
 
 # 题解
 ## 题解一：dictionary
-**复杂度**：时间O(N),空间O(N)
+**复杂度**：时间O(N), 空间O(N)
 
 ```python
-print("Hello, World!")  
-    print("Hello, World!")  
+class Solution:
+    def findRepeatNumber(self, nums: List[int]) -> int:
+        num_dict = {}
+        for num in nums:
+            if num not in num_dict:
+                num_dict[num] = 1
+            else:
+                return num
+        return -1
 ```

@@ -1,6 +1,7 @@
-链接：https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
+# 链接
+https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
 
-题目：
+# 题目
 
 找出数组中重复的数字。
 

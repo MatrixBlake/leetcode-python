@@ -14,6 +14,12 @@ https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
 
 # 题解
 ## 题解一：dictionary
+**思路**：
+
+遍历数组，把值存到一个dictionary里面，如果已经存在了，那就返回。
+
+缺陷：没有使用到 0~n-1这个information。
+
 **复杂度**：时间O(N), 空间O(N)
 
 ```python

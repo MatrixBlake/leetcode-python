@@ -65,3 +65,37 @@ class Solution:
 - left = mid +1
 - right = mid - 1 (right = l -1), right = mid (right = l)
 
+
+
+
+# 题解
+## 解法二：线性查找
+**思路**：从左下角起，和target比大小，大就上移，小就右移（因为两个方向上的信息不一样）。当然也可以从右上角起算。
+
+**复杂度**：时间复杂度O(n+m)
+
+```python
+class Solution:
+    def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
+        n = len(matrix)
+        try:
+            m = len(matrix[0])
+        except:
+            return False
+        if n == 0:
+            return False
+
+        i = n -1
+        j = 0
+        while i>=0 and j<m:
+            if matrix[i][j] < target:
+                j += 1
+            elif matrix[i][j] > target:
+                i -= 1
+            else:
+                return True
+        return False
+```
+
+# 启发
+遇到二维数组，可以把四个角的性质都想想。

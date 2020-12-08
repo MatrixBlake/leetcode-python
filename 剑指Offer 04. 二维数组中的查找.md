@@ -11,7 +11,7 @@ https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
 **示例**：
 
 给定矩阵如下：
- <pre>
+<pre>
 [  
 [1,   4,  7, 11, 15],  
 [2,   5,  8, 12, 19],  
@@ -19,13 +19,13 @@ https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
 [10, 13, 14, 17, 24],  
 [18, 21, 23, 26, 30]  
 ]
- </pre>
+</pre>
 
 **输出**：target = 5， 返回 True, target = 20, 返回false
 
 # 题解
 ## 解法一：二分法
-**思路**：对每一行=进行二分
+**思路**：对每一行进行二分
 
 **缺陷**：没有使用到每一列从上到下递增的information。
 
@@ -33,13 +33,35 @@ https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
 
 ```python
 class Solution:
-    def findRepeatNumber(self, nums: List[int]) -> int:
-        num_dict = {}
-        for num in nums:
-            if num not in num_dict:
-                num_dict[num] = 1
-            else:
-                return num
-        return -1
+    def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
+        
+        n = len(matrix)
+        if n == 0:
+            return False
+        m = len(matrix[0])
+        if m == 0:
+            return False
+
+        for i in range(n):
+            temp_list = matrix[i]
+            left = 0
+            right = m-1
+            while left <= right :
+                mid = (left+right)//2
+                if temp_list[mid] < target:
+                    left = mid + 1                    
+                elif temp_list[mid] > target:
+                    right = mid - 1
+                else:
+                    return True
+        return False
 ```
+**注意点**：
+
+二分法的步骤：
+- 定义left和right
+- while条件：left <= right (right = l -1), left < right (right = l)
+- mid = (left+right)//2
+- left = mid +1
+- right = mid - 1 (right = l -1), right = mid (right = l)
 

@@ -10,17 +10,14 @@ https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
 
 **示例**：
 **输入**：  
->[  
-> [1,   4,  7, 11, 15],  
-> [2,   5,  8, 12, 19],  
-> [3,   6,  9, 16, 22],  
-> [10, 13, 14, 17, 24],  
-> [18, 21, 23, 26, 30]  
->]
+$$\begin{bmatrix}1 & 4 & 7 & 11 & 15\\
+2 & 5 & 8 & 12 & 19\\
+3 & 6 & 9 & 16 & 22\\
+10 & 13 & 7 & 17 & 24\\
+18 & 21 & 23 & 26 & 30\\
+\end{bmatrix}$$
 
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
 **输出**：2 或 3 
 
 # 题解

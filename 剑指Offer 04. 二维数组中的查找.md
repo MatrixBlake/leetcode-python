@@ -66,9 +66,6 @@ class Solution:
 - right = mid - 1 (right = l -1), right = mid (right = l)
 
 
-
-
-# 题解
 ## 解法二：线性查找
 **思路**：从左下角起，和target比大小，大就上移，小就右移（因为两个方向上的信息不一样）。当然也可以从右上角起算。
 

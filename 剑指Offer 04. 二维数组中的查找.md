@@ -9,7 +9,8 @@ https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
 
 
 **示例**：
-**输入**：
+
+给定矩阵如下：
  <pre>
 [  
 [1,   4,  7, 11, 15],  
@@ -20,16 +21,15 @@ https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
 ]
  </pre>
 
-
-**输出**：2 或 3 
+**输出**：target = 5， 返回 True, target = 20, 返回false
 
 # 题解
-## 解法一：dictionary
-**思路**：遍历数组，把值存到一个dictionary里面，如果已经存在了，那就返回。
+## 解法一：二分法
+**思路**：对每一行=进行二分
 
-**缺陷**：没有使用到 0~n-1这个information。
+**缺陷**：没有使用到每一列从上到下递增的information。
 
-**复杂度**：时间复杂度O(N), 空间复杂度O(N)
+**复杂度**：时间复杂度O(nlog(m))
 
 ```python
 class Solution:

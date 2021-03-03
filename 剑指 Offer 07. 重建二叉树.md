@@ -49,3 +49,5 @@ class Solution:
         tree.right = self.buildTree(preorder[1+ind:],inorder[1+ind:])
         return tree
 ```
+## 方法二：迭代
+与递归的方法同样的复杂度，但是难理解多了。

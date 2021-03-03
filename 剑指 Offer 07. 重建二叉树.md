@@ -3,7 +3,9 @@ https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/
 
 # 题目
 输入某二叉树的前序遍历和中序遍历的结果，请重建该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
+
 **示例**
+
 给出
 <pre>
 前序遍历 preorder = [3,9,20,15,7]
@@ -23,4 +25,5 @@ https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/
 **思路**：
 
 前序遍历性质： 节点按照 [ 根节点 | 左子树 | 右子树 ] 排序。
+
 中序遍历性质： 节点按照 [ 左子树 | 根节点 | 右子树 ] 排序。

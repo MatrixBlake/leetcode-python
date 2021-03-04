@@ -28,7 +28,7 @@ https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/
 
 中序遍历性质： 节点按照 [ 左子树 | 根节点 | 右子树 ] 排序。
 
-所以用前序的第0个节点，可以从中序找到index，然后分成左子树和右子树两个问题。停止条件，如果是空，返回None。
+用前序的第0个节点，可以从中序找到index，然后分成左子树和右子树两个问题，把一个大问题分解成两个子问题，停止条件，如果是空，返回None。
 
 ```python
 # Definition for a binary tree node.

@@ -13,6 +13,7 @@
 - [503. 下一个更大元素 II](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) 单调栈
 - [剑指Offer 18. 删除链表的节点](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2018.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9.md) 链表双指针
 - [剑指Offer 22. 链表中倒数第k个节点](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2022.%20%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9.md) 链表双指针
+- [剑指Offer 24. 反转链表](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2024.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) 链表指针
 
 # 数学题
 - [50. Pow(x, n)](https://github.com/MatrixBlake/leetcode-python/blob/main/50.%20Pow(x%2C%20n).md) 快速幂，迭代

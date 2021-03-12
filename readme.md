@@ -17,3 +17,4 @@
 
 # 数学题
 - [50. Pow(x, n)](https://github.com/MatrixBlake/leetcode-python/blob/main/50.%20Pow(x%2C%20n).md) 快速幂，迭代
+- [剑指Offer 39. 数组中出现次数超过一半的数字](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2039.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%E4%B8%80%E5%8D%8A%E7%9A%84%E6%95%B0%E5%AD%97.md) 摩尔投票法

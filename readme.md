@@ -6,6 +6,7 @@
 - [剑指Offer 12. 矩阵中的路径](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87%20Offer%2012.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md) 路径回溯法
 - [131. 分割回文串](https://github.com/MatrixBlake/leetcode-python/blob/main/131.%20%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2.md) 找到所有的divide结果，用回溯法
 - [132. 分割回文串 II](https://github.com/MatrixBlake/leetcode-python/blob/main/132.%20%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2%20II.md) DP
+- [115. 不同的子序列](https://github.com/MatrixBlake/leetcode-python/blob/main/115.%20%E4%B8%8D%E5%90%8C%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97.md) DP
 
 # 数据结构基本性质
 - [剑指Offer 07. 重建二叉树](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) 二叉树，前序遍历，中序遍历

@@ -60,10 +60,10 @@ class Solution:
 
 二分法的步骤：
 - 定义left和right
-- while条件：left <= right (right = l -1), left < right (right = l)
+- while条件：left <= right 
 - mid = (left+right)//2
 - left = mid +1
-- right = mid - 1 (right = l -1), right = mid (right = l)
+- right = mid - 1
 
 
 ## 解法二：线性查找

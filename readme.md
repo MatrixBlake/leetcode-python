@@ -8,6 +8,7 @@
 - [132. 分割回文串 II](https://github.com/MatrixBlake/leetcode-python/blob/main/132.%20%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2%20II.md) DP
 - [115. 不同的子序列](https://github.com/MatrixBlake/leetcode-python/blob/main/115.%20%E4%B8%8D%E5%90%8C%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97.md) DP
 - [剑指Offer 49. 丑数](https://leetcode-cn.com/problems/chou-shu-lcof/) 指针+DP
+- [剑指Offer 55 - I. 二叉树的深度](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2055%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6.md) DFS
 
 # 数据结构基本性质
 - [剑指Offer 07. 重建二叉树](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) 二叉树，前序遍历，中序遍历
@@ -16,7 +17,7 @@
 - [剑指Offer 18. 删除链表的节点](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2018.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9.md) 链表双指针
 - [剑指Offer 22. 链表中倒数第k个节点](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2022.%20%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9.md) 链表双指针
 - [剑指Offer 24. 反转链表](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2024.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) 链表指针
-- [剑指Offer 54. 二叉搜索树的第k大节点](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2054.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACk%E5%A4%A7%E8%8A%82%E7%82%B9.md) 搜索二叉树
+- [剑指Offer 54. 二叉搜索树的第k大节点](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2054.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACk%E5%A4%A7%E8%8A%82%E7%82%B9.md) 二叉搜索树
 
 # 数学题
 - [50. Pow(x, n)](https://github.com/MatrixBlake/leetcode-python/blob/main/50.%20Pow(x%2C%20n).md) 快速幂，迭代

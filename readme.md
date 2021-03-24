@@ -10,6 +10,7 @@
 - [剑指Offer 49. 丑数](https://leetcode-cn.com/problems/chou-shu-lcof/) 指针+DP
 - [剑指Offer 55 - I. 二叉树的深度](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2055%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6.md) DFS
 - [456. 132 模式](https://github.com/MatrixBlake/leetcode-python/blob/main/456.%20132%20%E6%A8%A1%E5%BC%8F.md) 单调栈
+- [剑指Offer 59 - I. 滑动窗口的最大值](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2059%20-%20I.%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.md) 单调双端队列
 
 # 数据结构基本性质
 - [剑指Offer 07. 重建二叉树](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) 二叉树，前序遍历，中序遍历

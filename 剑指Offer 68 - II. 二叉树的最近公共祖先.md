@@ -34,3 +34,13 @@ https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/
 - 每次都dfs左节点和右节点
 - 如果返回的两个结果都是有的，在(1)的情况下说明这个节点就是我们要的（因为如果两个有一个为空，说明结果应该在某一个子树里）。如果其中一个是空的，那么另一个的返回结果就是我们要的（同时也考虑了(2)(3)的情况）
 
+```python
+class Solution:
+    def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
+        if not root or root == p or root == q: return root
+        left = self.lowestCommonAncestor(root.left, p, q)
+        right = self.lowestCommonAncestor(root.right, p, q)
+        if not left: return right
+        if not right: return left
+        return root
+```

@@ -12,6 +12,7 @@
 - [456. 132 模式](https://github.com/MatrixBlake/leetcode-python/blob/main/456.%20132%20%E6%A8%A1%E5%BC%8F.md) 单调栈
 - [剑指Offer 59 - I. 滑动窗口的最大值](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2059%20-%20I.%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.md) 单调双端队列
 - [剑指Offer 68 - II. 二叉树的最近公共祖先](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2068%20-%20II.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md) DFS
+- [面试题34. 二叉树中和为某一值的路径](https://github.com/MatrixBlake/leetcode-python/blob/main/%E9%9D%A2%E8%AF%95%E9%A2%9834.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%92%8C%E4%B8%BA%E6%9F%90%E4%B8%80%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84.md) DFS+回溯
 
 # 数据结构基本性质
 - [剑指Offer 07. 重建二叉树](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) 二叉树，前序遍历，中序遍历

@@ -22,6 +22,7 @@
 - [剑指Offer 22. 链表中倒数第k个节点](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2022.%20%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9.md) 链表双指针
 - [剑指Offer 24. 反转链表](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2024.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) 链表指针
 - [剑指Offer 54. 二叉搜索树的第k大节点](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2054.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACk%E5%A4%A7%E8%8A%82%E7%82%B9.md) 二叉搜索树
+- [173. 二叉搜索树迭代器](https://github.com/MatrixBlake/leetcode-python/blob/main/173.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E8%BF%AD%E4%BB%A3%E5%99%A8.md) 用栈做中序遍历
 
 # 数学题
 - [50. Pow(x, n)](https://github.com/MatrixBlake/leetcode-python/blob/main/50.%20Pow(x%2C%20n).md) 快速幂，迭代

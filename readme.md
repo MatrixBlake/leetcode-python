@@ -30,3 +30,4 @@
 
 # 位运算
 - [剑指Offer 56 - I. 数组中数字出现的次数](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2056%20-%20I.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.md) 异或操作抵消重复数字
+- [190. 颠倒二进制位](https://github.com/MatrixBlake/leetcode-python/blob/main/190.%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md) 左移右移取尾append

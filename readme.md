@@ -14,6 +14,7 @@
 - [剑指Offer 68 - II. 二叉树的最近公共祖先](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2068%20-%20II.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md) DFS
 - [面试题34. 二叉树中和为某一值的路径](https://github.com/MatrixBlake/leetcode-python/blob/main/%E9%9D%A2%E8%AF%95%E9%A2%9834.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%92%8C%E4%B8%BA%E6%9F%90%E4%B8%80%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84.md) DFS+回溯
 - -[695. 岛屿的最大面积](https://github.com/MatrixBlake/leetcode-python/blob/main/695.%20%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E7%A7%AF.md) DFS/BFS
+- [395. 至少有 K 个重复字符的最长子串](https://github.com/MatrixBlake/leetcode-python/blob/main/395.%20%E8%87%B3%E5%B0%91%E6%9C%89%20K%20%E4%B8%AA%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md) 递归
 
 # 数据结构基本性质
 - [剑指Offer 07. 重建二叉树](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) 二叉树，前序遍历，中序遍历

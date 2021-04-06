@@ -3,7 +3,7 @@
 
 # 查找类
 - [剑指Offer 04. 二维数组中的查找](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2004.%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md) （利用部分信息）二分查找，(利用所有信息)线性查找
-- [剑指Offer 12. 矩阵中的路径](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87%20Offer%2012.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md) 路径回溯法
+- [剑指Offer 12. 矩阵中的路径](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2012.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md) 路径回溯法
 - [131. 分割回文串](https://github.com/MatrixBlake/leetcode-python/blob/main/131.%20%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2.md) 找到所有的divide结果，用回溯法
 - [132. 分割回文串 II](https://github.com/MatrixBlake/leetcode-python/blob/main/132.%20%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2%20II.md) DP
 - [115. 不同的子序列](https://github.com/MatrixBlake/leetcode-python/blob/main/115.%20%E4%B8%8D%E5%90%8C%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97.md) DP
@@ -33,3 +33,4 @@
 # 位运算
 - [剑指Offer 56 - I. 数组中数字出现的次数](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2056%20-%20I.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.md) 异或操作抵消重复数字
 - [190. 颠倒二进制位](https://github.com/MatrixBlake/leetcode-python/blob/main/190.%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md) 左移右移取尾append
+- [556. 下一个更大元素 III](https://github.com/MatrixBlake/leetcode-python/blob/main/556.%20%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0%20III.md) 排列大小的性质

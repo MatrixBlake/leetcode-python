@@ -34,3 +34,4 @@
 - [剑指Offer 56 - I. 数组中数字出现的次数](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2056%20-%20I.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.md) 异或操作抵消重复数字
 - [190. 颠倒二进制位](https://github.com/MatrixBlake/leetcode-python/blob/main/190.%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md) 左移右移取尾append
 - [556. 下一个更大元素 III](https://github.com/MatrixBlake/leetcode-python/blob/main/556.%20%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0%20III.md) 排列大小的性质
+- [面试题 05.01. 插入](https://github.com/MatrixBlake/leetcode-python/blob/main/%E9%9D%A2%E8%AF%95%E9%A2%98%2005.01.%20%E6%8F%92%E5%85%A5.md)掩码

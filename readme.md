@@ -19,7 +19,7 @@
 - [1376. 通知所有员工所需的时间](https://github.com/MatrixBlake/leetcode-python/blob/main/1376.%20%E9%80%9A%E7%9F%A5%E6%89%80%E6%9C%89%E5%91%98%E5%B7%A5%E6%89%80%E9%9C%80%E7%9A%84%E6%97%B6%E9%97%B4.md) 递归，用memory减少重复操作
 
 # 数据结构基本性质
-- [剑指Offer 07. 重建二叉树](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) 二叉树，前序遍历，中序遍历
+- [剑指Offer 07. 重建二叉树](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) 二叉树，前序遍历，中序遍历
 - [剑指Offer 09. 用两个栈实现队列](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2009.%20%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md) 栈与队列的操作
 - [503. 下一个更大元素 II](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) 单调栈
 - [剑指Offer 18. 删除链表的节点](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2018.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9.md) 链表双指针

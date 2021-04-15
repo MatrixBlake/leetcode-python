@@ -17,6 +17,7 @@
 - -[695. 岛屿的最大面积](https://github.com/MatrixBlake/leetcode-python/blob/main/695.%20%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E7%A7%AF.md) DFS/BFS
 - [395. 至少有 K 个重复字符的最长子串](https://github.com/MatrixBlake/leetcode-python/blob/main/395.%20%E8%87%B3%E5%B0%91%E6%9C%89%20K%20%E4%B8%AA%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md) 递归
 - [1376. 通知所有员工所需的时间](https://github.com/MatrixBlake/leetcode-python/blob/main/1376.%20%E9%80%9A%E7%9F%A5%E6%89%80%E6%9C%89%E5%91%98%E5%B7%A5%E6%89%80%E9%9C%80%E7%9A%84%E6%97%B6%E9%97%B4.md) 递归，用memory减少重复操作
+- [689. 三个无重叠子数组的最大和](https://github.com/MatrixBlake/leetcode-python/blob/main/689.%20%E4%B8%89%E4%B8%AA%E6%97%A0%E9%87%8D%E5%8F%A0%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.md) loop中间，两边分别找
 
 # 数据结构基本性质
 - [剑指Offer 07. 重建二叉树](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) 二叉树，前序遍历，中序遍历

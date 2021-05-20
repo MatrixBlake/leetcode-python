@@ -22,3 +22,5 @@ def backtrack("原始参数") {
 
 # dictionary以value sort
 sorted_dict = sorted(dict_exmaple.items(), key=lambda x: x[1], reverse=True)
+
+s = sorted(word_count.items(), key= lambda x:(-x[1],x[0]))

@@ -39,5 +39,6 @@ while right < len(nums):
       1. 更新total值
       2. 收缩左边界
    更新ret最大值
+   更新右边界
 返回 ret
 ```

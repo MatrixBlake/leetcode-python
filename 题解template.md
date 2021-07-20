@@ -28,3 +28,16 @@ s = sorted(word_count.items(), key= lambda x:(-x[1],x[0]))
 
 # 位运算trick
 对于整数 \textit{val}val 二进制的第 ii 位，我们可以用代码 (val >> i) & 1 来取出其第 ii 位的值
+
+# 滑动窗口
+```python
+left,right = 0, (0 or 1)
+ret = total = 0
+while right < len(nums):
+   更新total值
+   while 窗口内数据不满足要求
+      1. 更新total值
+      2. 收缩左边界
+   更新ret最大值
+返回 ret
+```

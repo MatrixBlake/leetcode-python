@@ -42,3 +42,10 @@ while right < len(nums):
    更新右边界
 返回 ret
 ```
+
+# 二分法
+- 定义left和right
+- while条件：left <= right
+- mid = (left+right)//2
+- left = mid +1
+- right = mid - 1

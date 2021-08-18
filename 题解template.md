@@ -27,7 +27,7 @@ s = sorted(word_count.items(), key= lambda x:(-x[1],x[0]))
 
 
 # 位运算trick
-对于整数 \textit{val}val 二进制的第 ii 位，我们可以用代码 (val >> i) & 1 来取出其第 ii 位的值
+对于整数 val 二进制的第 i 位，我们可以用代码 (val >> i) & 1 来取出其第 i 位的值
 
 # 滑动窗口
 ```python
@@ -49,3 +49,13 @@ while right < len(nums):
 - mid = (left+right)//2
 - left = mid +1
 - right = mid - 1
+
+# default dict
+```python
+from collections import defaultdict
+
+dict1 = defaultdict(int)
+dict2 = defaultdict(set)
+dict3 = defaultdict(str)
+dict4 = defaultdict(list)
+```

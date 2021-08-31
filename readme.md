@@ -34,6 +34,7 @@
 - [50. Pow(x, n)](https://github.com/MatrixBlake/leetcode-python/blob/main/50.%20Pow(x%2C%20n).md) 快速幂，迭代
 - [剑指Offer 39. 数组中出现次数超过一半的数字](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2039.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%E4%B8%80%E5%8D%8A%E7%9A%84%E6%95%B0%E5%AD%97.md) 摩尔投票法
 - [1893. 检查是否区域内所有整数都被覆盖](https://github.com/MatrixBlake/leetcode-python/blob/main/1893.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E5%8C%BA%E5%9F%9F%E5%86%85%E6%89%80%E6%9C%89%E6%95%B4%E6%95%B0%E9%83%BD%E8%A2%AB%E8%A6%86%E7%9B%96.md) 前缀和 + 差分数列
+- [1109. 航班预订统计](https://github.com/MatrixBlake/leetcode-python/blob/main/1109.%20%E8%88%AA%E7%8F%AD%E9%A2%84%E8%AE%A2%E7%BB%9F%E8%AE%A1.md) 差分数组 + 前缀和
 
 # 位运算
 - [剑指Offer 56 - I. 数组中数字出现的次数](https://github.com/MatrixBlake/leetcode-python/blob/main/%E5%89%91%E6%8C%87Offer%2056%20-%20I.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E5%AD%97%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.md) 异或操作抵消重复数字

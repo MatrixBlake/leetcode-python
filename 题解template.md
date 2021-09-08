@@ -62,9 +62,11 @@ dict4 = defaultdict(list)
 ```
 
 # 优先队列
-## 大根堆
+## 小顶堆
 ```python
 pq = []
 heappush(pq, 3)
 v = heappop(pq)
 ```
+## 大顶堆
+push进负的值，pop出来的时候再取反

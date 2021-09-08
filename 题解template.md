@@ -33,6 +33,7 @@ s = sorted(word_count.items(), key= lambda x:(-x[1],x[0]))
 ```python
 left,right = 0, (0 or 1)
 ret = total = 0
+
 while right < len(nums):
    更新total值
    while 窗口内数据不满足要求
@@ -58,4 +59,12 @@ dict1 = defaultdict(int)
 dict2 = defaultdict(set)
 dict3 = defaultdict(str)
 dict4 = defaultdict(list)
+```
+
+# 优先队列
+## 大根堆
+```python
+pq = []
+heappush(pq, 3)
+v = heappop(pq)
 ```

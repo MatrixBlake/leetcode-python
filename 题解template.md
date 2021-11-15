@@ -50,6 +50,7 @@ while right < len(nums):
 - mid = (left+right)//2
 - left = mid +1
 - right = mid - 1
+- 返回 left
 
 # default dict
 ```python

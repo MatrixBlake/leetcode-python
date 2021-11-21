@@ -29,19 +29,20 @@ s = sorted(word_count.items(), key= lambda x:(-x[1],x[0]))
 # 位运算trick
 对于整数 val 二进制的第 i 位，我们可以用代码 (val >> i) & 1 来取出其第 i 位的值
 
-# 滑动窗口
+# 双指针
+## 滑动窗口
+两个指针都是从左往右扫描，右边扩大左边收缩
 ```python
-left,right = 0, (0 or 1)
-ret = total = 0
+l,r = 0, (0 or 1)
+res = total = 0
 
-while right < len(nums):
+for r in range(len(nums)):
    更新total值
    while 窗口内数据不满足要求
       1. 更新total值
       2. 收缩左边界
-   更新ret最大值
-   更新右边界
-返回 ret
+   更新res
+返回 res
 ```
 
 # 二分法
@@ -71,3 +72,4 @@ v = heappop(pq)
 ```
 ## 大顶堆
 push进负的值，pop出来的时候再取反
+

@@ -73,6 +73,15 @@ v = heappop(pq)
 ## 大顶堆
 push进负的值，pop出来的时候再取反
 
+## SortedList
+```python
+from sortedcontainers import SortedList
+lst = SortedList()
+lst.add((-score, name))
+
+print(lst[n][1]) #返回第n个最大值
+```
+
 # 排列组合
 ```python
 comb(m,n)

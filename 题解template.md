@@ -132,3 +132,8 @@ print(lst[n][1]) #返回第n个最大值
 ```python
 comb(m,n)
 ```
+
+# a-z
+```python
+string.ascii_lowercase
+```

@@ -20,29 +20,36 @@ def backtrack("原始参数") {
 ```
 # 背包问题
 
-# dictionary以value sort
+# sorted用法
+## dictionary定义sort的key
+```python
 sorted_dict = sorted(dict_exmaple.items(), key=lambda x: x[1], reverse=True)
-
 s = sorted(word_count.items(), key= lambda x:(-x[1],x[0]))
-
+```
+## 自定义compare函数
+```python
+def compare(x, y):
+    a, b = x + y, y + x
+    if a > b: return 1
+    elif a < b: return -1
+    else: return 0
+res = sorted(nums,key = functools.cmp_to_key(compare))
+```
 
 # 位运算trick
 对于整数 val 二进制的第 i 位，我们可以用代码 (val >> i) & 1 来取出其第 i 位的值
 
-# 双指针
-## 滑动窗口
-两个指针都是从左往右扫描，右边扩大左边收缩
+# 滑动窗口
 ```python
-l,r = 0, (0 or 1)
-res = total = 0
-
-for r in range(len(nums)):
-   更新total值
-   while 窗口内数据不满足要求
-      1. 更新total值
-      2. 收缩左边界
-   更新res
-返回 res
+l = 0
+res = 0
+temp = 0
+for r, num in enumerate(nums):
+    更新temp
+    while l <= r and 需要的条件:
+        更新temp
+        l += 1 #左端收缩
+    res += l - r + 1
 ```
 
 # 二分问题

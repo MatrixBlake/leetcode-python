@@ -126,6 +126,14 @@ lst = SortedList()
 lst.add((-score, name))
 
 print(lst[n][1]) #返回第n个最大值
+
+
+from sortedcontainers import SortedList
+lst = SortedList()
+lst.add(num) #logn
+ind = bisect_left(lst,num) #找num的index,logn
+lst.remove(num) #logn
+
 ```
 
 # 排列组合

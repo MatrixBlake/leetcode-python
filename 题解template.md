@@ -136,6 +136,14 @@ lst.remove(num) #logn
 
 ```
 
+## SortedDict
+```python
+from sortedcontainers import SortedDict
+booked = SortedDict()
+i = booked.bisect_left(end)
+booked[start] = end #以key为sort
+```
+
 # 排列组合
 ```python
 comb(m,n)

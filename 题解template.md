@@ -156,5 +156,18 @@ string.ascii_lowercase
 
 # 差分数组
 要求：给一个数列[0,0,0,0,0]，在[l,r)的位置上+1
+
 那么可以直接对[0,0,0,0,0]，在l上+1，在r上-1，然后再用前缀和，就可以求得变化的结果
+
 把本来的 O(n*(r-l))变成了O(n)
+
+# 素数筛（埃氏筛）
+快速求n以内的所有质数
+```python
+is_prime = [True] * MX
+for i in range(2, MX):
+    if is_prime[i]:
+        primes.append(i)
+        for j in range(i * i, MX, i):
+            is_prime[j] = False
+```

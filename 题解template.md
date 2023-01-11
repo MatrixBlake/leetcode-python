@@ -171,3 +171,21 @@ for i in range(2, MX):
         for j in range(i * i, MX, i):
             is_prime[j] = False
 ```
+
+# 单调栈
+作用
+- 寻找下一个更大元素
+- 寻找前一个更大元素
+- 寻找下一个更小元素
+- 寻找前一个更小元素
+- qualified 的 窗口的 max/min
+- sliding window max/min
+```python
+for 元素 in 列表:
+    while 栈不为空 and 栈顶元素（大于或者小于）目标值：
+	    出栈
+		根据业务处理
+	入栈
+```
+
+

@@ -6,7 +6,7 @@ is_prime[0] = is_prime[1] = False  # 0 和 1 不是质数
 
 for i in range(2, int(n**0.5) + 1):  # 只需筛到 sqrt(n)
 if is_prime[i]:  # 如果 i 是质数
-    for j in range(i * i, n + 1, i):  # 标记 i 的倍数为非质数
+    for j in range(i * i, n + 1, i):  # 标记 i 的倍数为非质数， 因为比i * i 小的所有 i 的倍数，在之前的迭代中已经被其他更小的质数标记过了。
 	is_prime[j] = False
 ```
 

@@ -1,3 +1,18 @@
+
+# 埃拉托色尼筛法（埃式筛）
+```python
+is_prime = [True] * (n + 1)  # 假设所有数都是质数
+is_prime[0] = is_prime[1] = False  # 0 和 1 不是质数
+
+for i in range(2, int(n**0.5) + 1):  # 只需筛到 sqrt(n)
+if is_prime[i]:  # 如果 i 是质数
+    for j in range(i * i, n + 1, i):  # 标记 i 的倍数为非质数
+	is_prime[j] = False
+```
+
+
+
+
 # 回溯
 ```python
 def backtrack("原始参数") {
@@ -161,16 +176,7 @@ string.ascii_lowercase
 
 把本来的 O(n*(r-l))变成了O(n)
 
-# 素数筛（埃氏筛）
-快速求n以内的所有质数
-```python
-is_prime = [True] * MX
-for i in range(2, MX):
-    if is_prime[i]:
-        primes.append(i)
-        for j in range(i * i, MX, i):
-            is_prime[j] = False
-```
+
 
 # 单调栈
 作用
